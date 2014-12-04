@@ -1,0 +1,77 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    awesome_print (1.1.0)
+    builder (3.1.4)
+    capybara (1.1.4)
+      mime-types (>= 1.16)
+      nokogiri (>= 1.3.3)
+      rack (>= 1.0.0)
+      rack-test (>= 0.5.4)
+      selenium-webdriver (~> 2.0)
+      xpath (~> 0.1.4)
+    childprocess (0.3.8)
+      ffi (~> 1.0, >= 1.0.11)
+    daemons (1.1.9)
+    diff-lcs (1.1.3)
+    eventmachine (1.0.0)
+    ffi (1.4.0)
+    haml (4.0.0)
+      tilt
+    logger (1.2.8)
+    mime-types (1.21)
+    multi_json (1.6.1)
+    nokogiri (1.5.6)
+    open4 (1.3.0)
+    rack (1.5.2)
+    rack-protection (1.3.2)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.0.3)
+    rally_api (0.5.1)
+      rest-client (>= 1.6.7)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.12.0)
+      rspec-core (~> 2.12.0)
+      rspec-expectations (~> 2.12.0)
+      rspec-mocks (~> 2.12.0)
+    rspec-core (2.12.2)
+    rspec-expectations (2.12.1)
+      diff-lcs (~> 1.1.3)
+    rspec-mocks (2.12.2)
+    rubyzip (0.9.9)
+    selenium-webdriver (2.29.0)
+      childprocess (>= 0.2.5)
+      multi_json (~> 1.0)
+      rubyzip
+      websocket (~> 1.0.4)
+    sinatra (1.3.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.3)
+      tilt (~> 1.3, >= 1.3.3)
+    thin (1.5.0)
+      daemons (>= 1.0.9)
+      eventmachine (>= 0.12.6)
+      rack (>= 1.0.0)
+    tilt (1.3.3)
+    websocket (1.0.7)
+    xpath (0.1.4)
+      nokogiri (~> 1.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  builder
+  capybara (~> 1.1.2)
+  haml
+  logger
+  open4 (~> 1.0)
+  rake
+  rally_api (= 0.5.1)
+  rspec (>= 2.0.0.a)
+  sinatra
+  thin
